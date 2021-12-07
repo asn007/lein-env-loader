@@ -1,4 +1,4 @@
-(defproject org.clojars.asn007/lein-env-loader "0.0.1"
+(defproject org.clojars.asn007/lein-env-loader "1.0.0"
   :description "Allows you to load .env files into lein tasks dynamically"
   :url "https://github.com/asn007/lein-env-loader"
   :license {:name "EPL-2.0"

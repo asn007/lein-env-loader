@@ -31,7 +31,6 @@
 (defn collect-env-files
   ([path]
    (let [base-path (str/replace (.getCanonicalPath (io/file path)) (char \\) (char \/))]
-     (println "-> using base path" base-path)
      (as-> base-path processed
            (str/split processed #"\/")
            (map-indexed vector processed)
